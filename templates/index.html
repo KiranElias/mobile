@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mobile price range predictor </title>
+</head>
+<style>
+  .content {
+    max-width: 500px;
+    margin: auto;
+  }
+  </style>
+<body>
+  <div class="login">
+    <h2 style="color:rgb(30, 45, 255);">Mobile price range predictor</h2>
+    <br>
+    <h4 >Enter the fields to predict the mobile price range</h4>
+
+     
+      <form action="/result" method="POST"> 
+        
+      <input  type="text" name="battery_power" placeholder="Battery Power in mAh" required="required"/>
+
+      <input  type="text" name="px_width" placeholder="Pixel Resolution Width" required="required"/>
+
+       <br>
+
+      <input   type="text" name="px_height" placeholder="Pixel Resolution Height" required="required"/>
+       
+      <input  type="text" name="int_memory" placeholder="Internal Memory in GB" required="required" />
+
+      <br>
+
+      <input   type="text" name="pc" placeholder="Primary Camera MP" required="required" />
+
+      <input  type="text" name="ram" placeholder="RAM in MB" required="required" />
+  
+      <button  type="submit" class="btn btn-primary btn-block btn-large">Predict</buttonalign=center>
+      </form>
+  
+     <br>
+     <br>
+</body>
+</html>
